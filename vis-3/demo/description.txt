@@ -1,0 +1,12 @@
+
+
+This visualisation shows for a given name (which can be selected by the user among a predefined list) the evolution of the number of births per gender. There are 2 charts, the first shows the raw number of births, the second shows the percentage of births with respect to the maximum number of births for this name and this gender.
+
+Strengths : 
+- You can select the name you want to display.
+- The diagram is clear because it shows one name at a time
+- The 2 charts enable you to compare the popularity of a name based on gender AND the difference in trend over time. It is usefull for comparing the trends for a name that is much less popular for one gender. (Look at 'Camille' charts as an example).
+
+Weaknesses : 
+- Don't show the trends among the whole data
+- Not all the names are selectable and the list of available names is an arbitrary choice of the developer
