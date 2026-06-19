@@ -1,0 +1,12 @@
+Here is our final visualisation. We tried to improve it according to the remarks you made. 
+
+What we did: 
+- Change the title and the axis title to make it clearer for the user.
+- Specify the gender in the legend.
+- Show less date on the x axis so that it is more readable.
+- Place the dropdown to select the name at the top of the vis.
+
+
+We wanted to change the dropdown for a search bar to make it possible to look for any names. But we encountered 2 issues: 
+- First, to have a list of names proposed to the user for autocompletion (like in the google search engine), the only way to do it with the latest version of Altair is to use html. More precisely, we would have to create an html page from the vis created by Altair and open it in a browser, which is not convenient (either for the developer and the user).
+- Secondly, the code do some computation on the data in python before creating the vis and adding more names take more time to compile. We think it would have taken too much time to display hundreds of different names.
